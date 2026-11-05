@@ -34,6 +34,8 @@ input, textarea {
 input:focus, textarea:focus { outline: none; border-color: var(--accent); }
 .note { color: var(--muted); font-size: 13px; }
 .hint { color: var(--muted); font-size: 13px; }
+.video-link { display: block; width: fit-content; margin-top: 16px; color: var(--accent); font-size: 15px; text-decoration: none; }
+.video-link:hover { text-decoration: underline; }
 .error { color: var(--bad); min-height: 1.4em; }
 .spacer { flex: 1; }
 
